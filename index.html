@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="" class="logo" />
+      <div class="header-input">
+        <ion-icon name="search-outline" class="icon-search"></ion-icon>
+        <input type="text" placeholder="Search..." class="inputChild" />
+      </div>
+      <div class="right-col">
+        <button class="btn-signIn">Sign In</button>
+        <button class="btn-cart">
+          <div class="cart-badge">5</div>
+          My Cart
+        </button>
+
+        <img
+          src="https://img.freepik.com/premium-vector/anime-boy-avatar_24640-79420.jpg?w=2000"
+          alt=""
+          class="avatar"
+        />
+      </div>
+    </header>
+    <div class="content">
+      <div class="categories">
+        <div class="category-item active">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+        <div class="category-item">
+          <ion-icon name="search-outline" class="category-icon"></ion-icon>
+          <div class="category-title">Clothing & Shoes</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content-left">
+          <div class="btn-department">
+            <span class="btn-department--icon"
+              ><ion-icon name="filter-outline"></ion-icon
+            ></span>
+            <span class="btn-department--title">Departments</span>
+          </div>
+          <div class="category-tree">
+            <div class="category-head" onclick="openAllCategory()">
+              <div class="category-head--icon">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </div>
+              <div>
+                <div>All Categories</div>
+                <div class="category-head--sub-title">Ecommerce patterns</div>
+              </div>
+            </div>
+            <div class="category-body">
+              <div class="category-box">
+                <div class="category-body--icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="category-body-title">Kids</div>
+              </div>
+              <div class="category-box">
+                <div class="category-body--icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="category-body-title">Kids</div>
+              </div>
+              <div class="category-box">
+                <div class="category-body--icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="category-body-title">Kids</div>
+              </div>
+              <div class="category-box">
+                <div class="category-body--icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="category-body-title">Kids</div>
+              </div>
+              <div class="category-box">
+                <div class="category-body--icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="category-body-title">Kids</div>
+              </div>
+              <div class="category-box">
+                <div class="category-body--icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="category-body-title">Kids</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="content-right--head">
+            <div class="sortBox">
+              Recommended
+              <ion-icon
+                name="caret-down-outline"
+                class="content-right--head--icon"
+              ></ion-icon>
+            </div>
+            <div class="content-right--col-right">
+              <button class="btn-list">
+                <ion-icon name="list"></ion-icon>
+              </button>
+              <button class="btn-grid">
+                <ion-icon name="grid"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="product-list">
+            <div class="product-item">
+              <div class="product-thump">
+                <img
+                  src="https://interspace-web.vercel.app/_next/image?url=https%3A%2F%2Finterspace-api.kytosai.com%2Fimages%2Fproducts%2Fp-4.jpg&w=384&q=100"
+                  alt=""
+                />
+              </div>
+              <div class="product-info">
+                <p class="product-title">
+                  Handcrafted Bronze Ball incidunt doloribus
+                </p>
+                <p class="product-price">$28.63</p>
+                <p class="product-description">$28.63</p>
+                <p class="product-description">$28.63</p>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-thump">
+                <img
+                  src="https://interspace-web.vercel.app/_next/image?url=https%3A%2F%2Finterspace-api.kytosai.com%2Fimages%2Fproducts%2Fp-7.jpg&w=384&q=100"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-thump">
+                <img
+                  src="https://interspace-web.vercel.app/_next/image?url=https%3A%2F%2Finterspace-api.kytosai.com%2Fimages%2Fproducts%2Fp-15.jpg&w=384&q=100"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-thump">
+                <img
+                  src="https://interspace-web.vercel.app/_next/image?url=https%3A%2F%2Finterspace-api.kytosai.com%2Fimages%2Fproducts%2Fp-13.jpg&w=384&q=100"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-thump">
+                <img
+                  src="https://interspace-web.vercel.app/_next/image?url=https%3A%2F%2Finterspace-api.kytosai.com%2Fimages%2Fproducts%2Fp-13.jpg&w=384&q=100"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
