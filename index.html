@@ -89,7 +89,7 @@
       </div>
       <div class="container">
         <div class="content-left">
-          <div class="btn-department">
+          <div class="btn-department" onclick="handleOpenModal()">
             <span class="btn-department--icon"
               ><ion-icon name="filter-outline"></ion-icon
             ></span>
@@ -214,6 +214,11 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal-overlay" onclick="handleCloseModal()">
+        <div class="modal-content"></div>
       </div>
     </div>
     <script src="./js/main.js"></script>
